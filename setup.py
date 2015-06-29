@@ -8,4 +8,7 @@ setup(name='textshare',
       author_email='bindingofisaacs@gmail.com',
       license='MIT',
       packages=['textshare'],
+      entry_points={
+          'console_scripts': ['textshare=textshare.command_line:main'],
+      },
       zip_safe=False)
