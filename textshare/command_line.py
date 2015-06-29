@@ -1,7 +1,6 @@
-import sys, os
-import textshare
+import click, textshare, os
 
-def main():
-    print textshare.readfile(os.path.abspath('a.py'))
-    print textshare.check_install()
-    print sys.argv
+@click.command()
+@click.option('-f', '--file', type=click.Path(exists=True), help='filename to be shared', nargs=1, required=True)
+def cli(file):
+    click.echo(textshare.uploadfile(file))
