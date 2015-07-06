@@ -12,4 +12,4 @@ def uploadfile(path):
     if res.status_code == 200:
         return res.text.rstrip("\r\n")
     else:
-        return "Something is wrong please report it in https://github.com/bindingofisaac/textshare\n"
+        return "Something is wrong please report it in https://github.com/bindingofisaac/textshare, File Passed: " +path+ "\n"
