@@ -20,6 +20,7 @@ textshare [OPTIONS] [FILEPATHS]...
 
 Options:
 -i, --input  uses stdin as input
+
 --help       Show this message and exit.
 
 ========
