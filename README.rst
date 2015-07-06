@@ -4,6 +4,8 @@ textshare
 
 *A simple command line utility to share code and texts*
 
+`pypi <https://pypi.python.org/pypi/textshare/>`_:
+
 ============
 installation
 ============
