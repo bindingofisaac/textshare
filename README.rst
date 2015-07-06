@@ -4,7 +4,9 @@ textshare
 
 *A simple command line utility to share code and texts*
 
-`pypi <https://pypi.python.org/pypi/textshare/>`_:
+Download python package here `pypi <https://pypi.python.org/pypi/textshare/>`
+
+Submit issues here `github <https://github.com/bindingofisaac/textshare>`
 
 ============
 installation
