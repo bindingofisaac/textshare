@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='textshare',
-      version='0.2',
+      version='0.3',
       description='share your text files easily',
       url='https://github.com/bindingofisaac/textshare',
       author='Vivek',
