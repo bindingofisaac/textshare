@@ -23,8 +23,11 @@ usage
 textshare [OPTIONS] [FILEPATHS]...
 
 Options:
--i/--input   uses stdin as input
+
+--input      uses stdin as input
+
 --map        returns output as a map of filepaths and url
+
 --help       Show this message and exit.
 
 ========
