@@ -23,8 +23,8 @@ usage
 textshare [OPTIONS] [FILEPATHS]...
 
 Options:
--i, --input  uses stdin as input
-
+-i/--input   uses stdin as input
+--map        returns output as a map of filepaths and url
 --help       Show this message and exit.
 
 ========
@@ -33,6 +33,8 @@ examples
 
 .. code-block:: bash 
 
-    $ textshare filename1 filename2
-
+    $ texshare file1 file2
+    
     $ cat file | textshare -i
+
+    $ texshare --map file1 file2 | textshare -i
