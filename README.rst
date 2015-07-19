@@ -41,3 +41,9 @@ examples
     $ cat file | textshare -i
 
     $ texshare --map file1 file2 | textshare -i
+
+====
+TODO
+====
+
+Split large files into chunks
