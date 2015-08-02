@@ -1,10 +1,13 @@
-import click, textshare, sys, os
+import click, sys, os
+from textshare import SprungeSharer
 
 @click.command()
 @click.option('--input', '-i', help='uses stdin as input', is_flag=True, default=False)
 @click.option('--map', help='returns output as a map of filepaths and url', is_flag=True, default=False)
 @click.argument('filepaths', type=click.Path(exists=True), nargs=-1)
 def cli(input, map, filepaths):
+    textshare = SprungeSharer.SprungeSharer()
+    print textshare
     if input:
         text = sys.stdin.readlines()
         click.echo(textshare.uploadtext(''.join(text)))
